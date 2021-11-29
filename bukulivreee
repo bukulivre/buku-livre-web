@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Livre - Compra y Venta</title>
+    <!-- Link Favicon -->
+    <link rel="shortcut icon" href="./files/buku.ico" type="image/x-icon">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="tittle">BUKU LIVRE</a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="html/compra.html">COMPRA Y VENTA</a></li>
+                <li><a href="">RESEÑAS</a></li>
+                <li><a href="">SOBRE NOSOTROS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">  
+    </section>
+
+    <section class="aboutUs">
+       <div class="container">
+        <h1>About Us</h1>
+        <hr>
+    </div>
+        <p>Desde buku livre buscamos resolver la problemática de la falta de lectura en la sociedad, haciendo mas accesible para todas las personas los libros que necesitan.  <br> En nuestra aplicación, no solo se podrán adquirir libros de literatura para la lectura por diversión, sino que se podrán adquirir todo tipo de libros, como los estudiantiles, lo que ayudará a muchos niños, adolescentes o adultos que se encuentren estudiando en la escuela o la universidad y no tengan los recursos monetarios para comprar los libros que necesitan. <br> Además, como cualquier usuario puede subir un pdf, se podrán encontrar libros en todos los idiomas.</p>
+    </section>
+
+</section>
+<section class="aboutUs">
+        <div class="container">
+            <h1>Compra y Venta</h1>
+            <hr>
+        </div>
+        <p>Nuestra aplicación cuenta con un sistema de ventas e intercambios, donde los usuarios pueden vender los libros que deseen por medio de Buku Livre o utilizar el sistema de puntos para intercambiar ciertos libros en físico, publicados por otros usuarios. <br> Los puntos de cada libro son establecidos según la cantidad de páginas que posea. <br> Tanto las ventas como los intercambios son administrados por los usuarios a partir de un chat brindado por la aplicación.</p>
+    </section>
+
+    <section class="images">
+        <img src="img1.jpeg" alt="">
+        <img src="img2.jpeg"alt="">
+        <img src="" alt="">
+        <img src="img3.jpeg" alt="">
+        <h2>Acercando los libros a todo el mundo</h2>
+    </section>
+
+    <section class="images">
+        <img src="./files/img1.jpeg" alt="">
+        <img src="./files/img3.jpeg" alt="">
+        <img src="./files/img2.jpeg" alt="">
+
+    
+<footer>
+    <div class="containerImg">
+        <img src="./files/buku.ico" alt="">
+    </div>
+    <div class="containerMenu">
+        <ul>
+            <li><a href="">INICIO</a></li>
+            <li><a href="">COMPRA Y VENTA</a></li>
+            <li><a href="">RESEÑAS</a></li>
+            <li><a href="">SOBRE NOSOTROS</a></li>
+        </ul>
+    </div>
+   
+    <span>© 2021 Buku Livre. Todos los derechos reservados </span>
+</footer>    
+</body>
+</html>
+<style class="css">
+    /* Google Fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #06c5cd;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    
+}
+
+header .tittle{
+    margin: 25px 0px;
+    color: #FFFF;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+}
+
+header nav ul{
+    z-index: 25px;
+    margin: 30px 0px;
+    display: flex;
+    list-style: none;
+}
+
+header nav ul a{
+    text-decoration: none;
+    padding: 10px;
+    color: #FFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header nav ul a:hover{
+    color: #efb810;
+    padding: 25px;
+    transition: 0.8s;
+}
+
+/* Sección Banner */
+
+.banner img{
+    width: 100%;    
+}
+
+/* Sección About Us */
+
+.aboutUs{
+  background-color: #6e5d80;
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+}
+
+.container{
+    padding:  15px 45px;
+}
+
+.aboutUs hr{
+    align-items: center;
+    width: 15rem;
+    border: solid 3px white;
+}
+
+
+.aboutUs h1{
+    color: #FFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.aboutUs p{
+    margin: 25px;
+    color: #FFFF;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Sección Banner */
+.banner video{
+    width: 100%;
+}
+
+.banner .subtittle{
+    color:rgb(255, 247, 0);
+    font-size: 1.5rem;
+}
+.banner p{
+    position: relative;
+    color: rgb(51, 51, 51);
+    font-size: 3rem;
+    left: 3rem;
+    top: 30rem;
+}
+/* Sección Images */
+
+.images{
+    text-align: center;
+    background-color: #6e5d80 ;
+}
+.images img{
+    cursor: pointer;
+    padding: 35px;
+    width:400px;
+}
+.images img:hover{
+    filter:  grayscale(80%);
+    transition: 0.5s;
+}
+
+.images h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    padding-bottom: 25px;
+    color: #FFFF;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: rgb(56, 27, 63);
+    padding-bottom: 10px;
+}
+footer img {
+width: 100px;
+}
+
+footer ul{
+    z-index: 25px;
+    margin: 30px 0px;
+    display: flex;
+    list-style: none;
+}
+
+footer ul a{
+    text-decoration: none;
+    padding: 10px;
+    color: #FFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer .containerImg{
+    padding-top:  25px;
+    display: flex;
+    justify-content: center;
+}
+
+footer .containerMenu{
+    display: flex;
+   justify-content: center;
+}
+
+footer span{
+    color: rgba(255, 255, 255, 0.596);
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+</style>
